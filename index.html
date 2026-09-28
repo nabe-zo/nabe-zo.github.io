@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ドラムフレーズ練習アプリ『ランダムフレーズ』のサポートとプライバシー情報です。">
+  <title>ランダムフレーズ</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23081a49'/%3E%3Ccircle cx='32' cy='36' r='16' fill='%23fff' stroke='%2358d7ee' stroke-width='4'/%3E%3Cpath d='M14 12l19 25M50 12L31 37' stroke='%23ffb84d' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #081a49; color: #f8fbff; }
+    main { min-height: 100vh; display: grid; place-items: center; padding: 32px 20px; }
+    article { width: min(100%, 760px); background: #fff; color: #15203a; border-radius: 24px; padding: clamp(28px, 6vw, 48px); box-shadow: 0 24px 64px rgb(0 0 0 / 24%); }
+    .mark { display: grid; place-items: center; width: 64px; height: 64px; margin-bottom: 24px; border-radius: 16px; background: #081a49; color: #58d7ee; font-size: 32px; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 6vw, 46px); line-height: 1.2; }
+    .lead { margin: 0 0 32px; color: #536178; font-size: 18px; line-height: 1.8; }
+    nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    a { display: block; border: 1px solid #d9e1ee; border-radius: 16px; padding: 20px; color: #0b4a78; text-decoration: none; font-size: 17px; font-weight: 700; }
+    a span { display: block; margin-top: 6px; color: #536178; font-size: 14px; font-weight: 400; line-height: 1.6; }
+    a:focus-visible { outline: 3px solid #ffb84d; outline-offset: 3px; }
+    footer { margin-top: 32px; color: #6b768a; font-size: 14px; }
+    @media (max-width: 560px) { nav { grid-template-columns: 1fr; } }
+    @media (prefers-color-scheme: dark) { article { background: #101a32; color: #f8fbff; } .lead, a span, footer { color: #b9c4dc; } a { border-color: #33415e; color: #58d7ee; } }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="mark" aria-hidden="true">♩</div>
+      <h1>ランダムフレーズ</h1>
+      <p class="lead">ドラムフレーズ練習アプリのサポート情報です。</p>
+      <nav aria-label="案内">
+        <a href="./support/">サポート<span>使い方、音が聞こえない場合、購入の復元、お問い合わせ</span></a>
+        <a href="./privacy/">プライバシーポリシー<span>端末内の保存、広告、アプリ内課金、外部サービス</span></a>
+      </nav>
+      <footer>提供者：susumu watanabe</footer>
+    </article>
+  </main>
+</body>
+</html>
